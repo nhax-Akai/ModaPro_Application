@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97D4F4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/product_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Details Product"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/blackdress" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Dress"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Product Price and Color -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: 300$"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/product_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Color: Red"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <!-- Product Description -->
+    <TextView
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Description: Sale off 50%"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/product_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Quantity available: 10"
+        android:textSize="20sp" />
+
+    <!-- Quantity Input and Add to Cart Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter quantity:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quantity_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:inputType="number"
+            android:padding="8dp"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/add_to_cart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:contentDescription="Add to cart"
+            android:gravity="center"
+            android:text="Add to Cart"
+            app:icon="@drawable/ic_cart" />
+
+    </LinearLayout>
+</LinearLayout>

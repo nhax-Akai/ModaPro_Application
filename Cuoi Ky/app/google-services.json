@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626044327478",
+    "firebase_url": "https://nnshop-1f35e-default-rtdb.firebaseio.com",
+    "project_id": "nnshop-1f35e",
+    "storage_bucket": "nnshop-1f35e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626044327478:android:3d650ae1d5f4909453aa97",
+        "android_client_info": {
+          "package_name": "tdtu.edu.nnshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626044327478-8t9pv0skt2qq1qr6b4ukeg2luvq7hb9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPSsw2rnfx9aJ5tGVKkp8QAgBhlxi8fvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626044327478-8t9pv0skt2qq1qr6b4ukeg2luvq7hb9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
